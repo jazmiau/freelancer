@@ -1,3 +1,457 @@
 /*
  * Estilos de tu proyecto
  */
+ body{
+   margin: 0 auto;
+ }
+
+ header{
+   position: fixed;
+   z-index: 9999;
+   width: 100%;
+   height: 109px;
+   background: #2c3e50;
+   top: 0;
+   left: 0;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+.encabezado{
+  position: fixed;
+  width: 100%;
+  height: 109px;
+  background: #2c3e50;
+  top: 0;
+  left: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+  width: 300px;
+  height: 40px;
+}
+
+ li{
+   display: inline-block;
+   color: white;
+   float: left;
+   margin: 0px;
+   position: relative;
+   left: 907px;
+   bottom: 60px;
+}
+
+li:first-child{
+  width: 119px;
+  height: 40px;
+  text-align: center;
+}
+
+li:nth-child(even){
+  width: 79px;
+  height: 40px;
+  text-align: center;
+}
+
+li:last-child{
+  width: 101px;
+  height: 40px;
+  text-align: center;
+}
+
+li h4{
+   margin-top: 10px;
+}
+
+h2{
+  color: white;
+  margin-left: 89px;
+  width: 313px;
+  margin-top: 40px;
+  position: relative;
+  width: 317px;
+  font-size:29px;
+}
+
+.profile{
+  /*position:  relative;*/
+  width: 100%;
+  height: 685px;
+  left: 0;
+  top: 107px;
+  bottom: 792px;
+  background: #16b395;
+  padding-top: 91px;
+  /*padding-bottom:105px;681px;*/
+
+}
+
+.profile-photo{
+  top: 92px;
+  position: relative;
+  left: 516px;
+}
+
+.profile h1{
+  position: absolute;
+  color: white;
+  font-size: 75px;
+  font-weight: bolder;
+  top: 470px;
+  left: 272px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+}
+
+.iconos{
+  position: absolute;
+  text-align: center;
+  width: 1110px;
+  height: 116px;
+  top: 590px;
+  left: 89px;
+  color: white;*/
+}
+
+.iconos fa{
+  background: #16b395;
+  color: white;
+  padding: 10px;
+  bottom: 20px;
+}
+
+.fa-star{
+  background-color: #16b395;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  margin-left: 100px;
+}
+
+.line{
+  width: 251px;
+  border-bottom: 5px solid white;
+  left: 430px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.iconos h4{
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.portafolio{
+  background-color: white;
+  width: 100%;
+  height: 885px;
+}
+
+.contenedor{
+  width: 1160px;
+  height: 566px;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+.titulo{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  margin-top: 0;
+  top: 80px;
+}
+
+.images{
+  width: 351px;
+  height: 254px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.linea{
+    width: 251px;
+    border-bottom: 5px solid black;
+    left: 500px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 600px;
+    margin-left: 520px;
+    margin-top: 100px
+}
+
+.portafolio i{
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  margin-left: 100px;
+  color: black;
+  padding: 10px;
+  margin-top: 80px;
+  margin-left: 620px
+}
+
+.contenedor2{
+  background-color: #16b395;
+  width: 100%;
+  height: 576px;
+}
+
+.sobre{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  margin-top: 0;
+  top: 80px;
+}
+
+.contenedor2 i{
+  background-color: #16b395;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  margin-left: 100px;
+  color: white;
+  padding: 10px;
+  margin-top: 80px;
+  margin-left: 620px
+}
+
+.linea2{
+  width: 251px;
+  border-bottom: 5px solid white;
+  left: 500px;
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 600px;
+  margin-left: 520px;
+  margin-top: 100px
+}
+
+.parrafo{
+  width: 350px;
+  height: 170px;
+  color: white;
+  display: inline-block;
+  margin-left: 276px;
+  margin-right: 36px;
+}
+
+p{
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.parrafo2{
+  width: 350px;
+  height: 140px;
+  color: white;
+  display: inline-block;
+}
+
+.parrafo2 p{
+  position: relative;
+  bottom: 20px;
+}
+
+.descarga{
+  width: 230px;
+  height: 50px;
+  text-align: center;
+  margin-left: 538px;
+  margin-top: 90px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.descarga a{
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.contenedor3{
+  width: 100%;
+  height: 939px;
+  background: white;
+}
+
+.contacto{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  margin-top: 0;
+  top: 80px;
+}
+
+.linea3{
+  width: 251px;
+  border-bottom: 5px solid black;
+  left: 500px;
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 600px;
+  margin-left: 520px;
+  margin-top: 100px
+}
+
+.contenedor3 i{
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  margin-left: 100px;
+  color: black;
+  padding: 10px;
+  margin-top: 80px;
+  margin-left: 620px
+}
+
+.datos{
+  width: 729px;
+  height: 605px;
+  background: white;
+  margin-top: 40px;
+  margin-left: 277px;
+}
+
+.cajas{
+  width: 730px;
+  height: 97px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.cajas h3{
+  font-family: "Lato", sans-serif;
+  color: grey;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.mensaje{
+  width: 730px;
+  height: 241px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.mensaje h3{
+  font-family: "Lato", sans-serif;
+  color: grey;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.enviar{
+  width: 730px;
+  height: 48px;
+  margin-top: 20px;
+}
+
+button{
+  width: 78px;
+  height: 50px;
+  background: #16b395;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer{
+  width: 100%;
+  height: 343px;
+  background: #2c3e50;
+}
+
+.fila{
+  width: 1140px;
+  height: 219px;
+  padding-top: 50px;
+  padding-left: 70px;
+}
+
+.cuadro{
+  width: 350px;
+  height: 169px;
+  display: inline-block;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding-top: 0;
+}
+
+.cuadro h3{
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: 0;
+  text-align: center;
+}
+
+.cuadro ul{
+  display: inline-block;
+  padding-left: 0px;
+  width: 350px;
+}
+.cuadro ul li{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  float: left;
+  left: 30px;
+  top: 5px;
+  line-height: 45px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-left: 5px;
+}
+
+.cuadro p{
+  margin-left: 40px;
+}
+
+span{
+  color: #16b395;
+}
+
+.last{
+  text-align: center;
+  color: white;
+  padding-bottom: 0;
+}
+
+.last p{
+  font-size: 15px;
+}
