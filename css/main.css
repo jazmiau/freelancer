@@ -449,7 +449,7 @@ span{
 .last{
   text-align: center;
   color: white;
-  padding-bottom: 0;
+  padding: 0;
 }
 
 .last p{
